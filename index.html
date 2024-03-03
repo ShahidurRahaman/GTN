@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./Favicon/favicon-16x16.png">
+    <link rel="manifest" href="./Favicon/site.webmanifest">
+
+</head>
+<body onload="generate()">
+    <div id="container">
+        <div id="game-name">
+            Guess The Number
+        </div>
+        <div id="guess-text">
+            Guess the secret number between 1 - 100
+        </div>
+        <div id="output-text">
+
+        </div>
+        <input type="number" name="text" id="input" value="number">
+        <br>
+        <button id="check-btn" class="btn" onclick="check()">Check</button>
+        <br>
+        <button id="new-btn" class="btn" onclick="newgame()">New Game</button>
+        <div id="signature">
+            Developed by Sk Shahidur Rahaman
+        </div>
+    </div>
+</body>
+</html>
